@@ -1,0 +1,1 @@
+<button class="formid-btn" hover-class="hover" data-event-opts="{{[['tap',[['getMsg',['$event']]]]]}}" bindtap="__e"><slot></slot></button>

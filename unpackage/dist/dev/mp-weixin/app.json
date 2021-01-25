@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/mall",
+    "pages/search",
+    "pages/productList",
+    "pages/detail",
+    "pages/user/my",
+    "pages/theme",
+    "pages/themeGoods",
+    "pages/user/apply",
+    "pages/user/order",
+    "pages/user/fans",
+    "pages/user/withdraw",
+    "pages/user/withdraw_list",
+    "pages/promotion",
+    "pages/web",
+    "pages/login/login",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小麦商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#5677FC",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/mall",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/tab-home.png",
+        "selectedIconPath": "static/images/tabbar/tab-home-current.png"
+      },
+      {
+        "pagePath": "pages/promotion",
+        "text": "推荐",
+        "iconPath": "static/images/tabbar/tab-commend.png",
+        "selectedIconPath": "static/images/tabbar/tab-commend-current.png"
+      },
+      {
+        "pagePath": "pages/theme",
+        "text": "主题",
+        "iconPath": "static/images/tabbar/tab-cate.png",
+        "selectedIconPath": "static/images/tabbar/tab-cate-current.png"
+      },
+      {
+        "pagePath": "pages/user/my",
+        "text": "我的",
+        "iconPath": "static/images/tabbar/tab-my.png",
+        "selectedIconPath": "static/images/tabbar/tab-my-current.png"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx32540bd863b27570",
+    "wx91d27dbf599dff74",
+    "wx13e41a437b8a1d2e"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的位置,用于查询您周边的店铺"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap90.json"
+}

@@ -1,0 +1,128 @@
+
+page {
+		background: #f5f6fa;
+}
+	/*searchbox*/
+.tui-searchbox {
+		width: 100%;
+		height: 100rpx;
+		padding: 0 30rpx;
+		box-sizing: border-box;
+		background: #fff;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		position: relative;
+}
+.tui-search-input {
+		width: 100%;
+		height: 72rpx;
+		background: #f5f6fa;
+		border-radius: 36rpx;
+		font-size: 30rpx;
+		color: #A8ABB8;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.tui-search-text {
+		padding-left: 16rpx;
+}
+	/*searchbox*/
+.tui-msg-box {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.tui-msg-pic {
+		width: 100rpx;
+		height: 100rpx;
+		border-radius: 50%;
+		display: block;
+		margin-right: 24rpx;
+}
+.tui-msg-item {
+		max-width: 500rpx;
+		min-height: 80rpx;
+		overflow: hidden;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+}
+.tui-msg-name {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		font-size: 34rpx;
+		line-height: 1;
+		color: #262b3a;
+}
+.tui-msg-content {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		font-size: 28rpx;
+		line-height: 1;
+		color: #9397a4;
+}
+.tui-msg-right {
+		max-width: 230rpx;
+		height: 88rpx;
+		margin-left: auto;
+		text-align: right;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		-webkit-box-align: end;
+		-webkit-align-items: flex-end;
+		        align-items: flex-end;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+}
+.tui-msg-right.tui-right-dot {
+		height: 76rpx;
+		padding-bottom: 10rpx;
+}
+.tui-msg-time {
+		width: 100%;
+		font-size: 24rpx;
+		line-height: 24rpx;
+		color: #9397a4;
+}
+.tui-msg-time-desc{
+		width: 100%;
+		font-size: 26rpx;
+		line-height: 24rpx;
+		color:#888888;
+}
+.tui-badge {
+		width: auto
+}
+

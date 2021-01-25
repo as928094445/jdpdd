@@ -1,0 +1,23 @@
+<template>
+    <view>
+        <web-view :webview-styles="webviewStyles" src="https://union-click.jd.com/jdc?e=&p=AyIGZRprFDJWWA1FBCVbV0IUWVALHFNECwQHCllHGAdFBwteQloIBQtHR0pAAQVZbnh1fjdoPhVGYH0yEjpBQBRFN3tSUERabigSRU1dR1McBAJQXk83L09ZTHcIXAp5HW8KWQAhUhALBRdfExdXJQISD1QcWiUCEwZVHV4UBBcGZStbFjJZaVQrWx0FFA5WHlwQACIHUR1cFwQbD1QcUhcGIgBVEmsVCxYPURhYFgsiN1UaWhQDEgZTGV8lASI3ZRlrFjJNQwhGaxcDEwNc"></web-view>
+    </view>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                webviewStyles: {
+                    progress: {
+                        color: '#FF3333'
+                    }
+                }
+            }
+        }
+    }
+</script>
+
+<style>
+
+</style>

@@ -1,0 +1,286 @@
+{
+	"pages": [{
+			"path": "pages/mall",
+			"style": {
+				"navigationBarBackgroundColor": "#e41f19",
+				"navigationBarTextStyle": "white",
+				"backgroundColorTop": "#F7F7F7",
+				"backgroundColorBottom": "#F7F7F7",
+				"navigationBarTitleText": "小麦商城",
+                "navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+                "app-plus": {
+                    "pullToRefresh": {
+                        "support": true,
+                        "color": "#ff3333",
+                        "style": "default",
+                        "height": "20%",
+                        "contentdown": {
+                            "caption": "下拉可刷新页面内容"
+                        },
+                        "contentover": {
+                            "caption": "释放可刷新页面内容"
+                        },
+                        "contentrefresh": {
+                            "caption": "正在刷新页面内容"
+                        }
+                    }
+                }
+			}
+		},
+		{
+			"path": "pages/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"backgroundColorTop": "#fff",
+				"backgroundColorBottom": "#fff",
+				"disableScroll": true,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/productList",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"backgroundColorTop": "#F7F7F7",
+				"backgroundColorBottom": "#F7F7F7",
+				"navigationBarTitleText": "商品列表 ",
+				"onReachBottomDistance": 50,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/detail",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"backgroundColorTop": "#F7F7F7",
+				"backgroundColorBottom": "#F7F7F7",
+				"navigationBarTitleText": "商品详情 ",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50,
+				"navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false,
+                    "pullToRefresh": {
+                        "support": true,
+                        "color": "#ff3333",
+                        "style": "default",
+                        "height": "20%",
+                        "contentdown": {
+                            "caption": "下拉可刷新页面内容"
+                        },
+                        "contentover": {
+                            "caption": "释放可刷新页面内容"
+                        },
+                        "contentrefresh": {
+                            "caption": "正在刷新页面内容"
+                        }
+                    }
+                }
+			}
+		},
+		{
+			"path": "pages/theme",
+			"style": {
+				"navigationBarBackgroundColor": "#e41f19",
+				"navigationBarTextStyle": "white",
+				"backgroundColorTop": "#F7F7F7",
+				"backgroundColorBottom": "#F7F7F7",
+				"navigationBarTitleText": "主题推广",
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/themeGoods",
+			"style": {
+				"navigationBarBackgroundColor": "#e41f19",
+				"navigationBarTextStyle": "white",
+				"backgroundColorTop": "#F7F7F7",
+				"backgroundColorBottom": "#F7F7F7",
+				"navigationBarTitleText": "主题产品",
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+        {
+        	"path": "pages/user/apply",
+        	"style": {
+        		"navigationBarBackgroundColor": "#e41f19",
+        		"navigationBarTextStyle": "white",
+        		"backgroundColorTop": "#F7F7F7",
+        		"backgroundColorBottom": "#F7F7F7",
+        		"navigationBarTitleText": "会员升级",
+        		"onReachBottomDistance": 50,
+        		"app-plus": {
+        			"titleNView": false
+        		}
+        	}
+        },
+        {
+        	"path": "pages/user/order",
+        	"style": {
+        		"navigationBarBackgroundColor": "#e41f19",
+        		"navigationBarTextStyle": "white",
+        		"backgroundColorTop": "#F7F7F7",
+        		"backgroundColorBottom": "#F7F7F7",
+        		"navigationBarTitleText": "我的推广订单",
+        		"onReachBottomDistance": 50,
+        		"app-plus": {
+        			"titleNView": false
+        		}
+        	}
+        },
+        {
+        	"path": "pages/user/fans",
+        	"style": {
+        		"navigationBarBackgroundColor": "#e41f19",
+        		"navigationBarTextStyle": "white",
+        		"backgroundColorTop": "#F7F7F7",
+        		"backgroundColorBottom": "#F7F7F7",
+        		"navigationBarTitleText": "我的麦客",
+        		"onReachBottomDistance": 50,
+        		"app-plus": {
+        			"titleNView": false
+        		}
+        	}
+        },
+        {
+        	"path": "pages/user/withdraw",
+        	"style": {
+        		"navigationBarBackgroundColor": "#e41f19",
+        		"navigationBarTextStyle": "white",
+        		"backgroundColorTop": "#F7F7F7",
+        		"backgroundColorBottom": "#F7F7F7",
+        		"navigationBarTitleText": "提现",
+        		"onReachBottomDistance": 50,
+        		"app-plus": {
+        			"titleNView": false
+        		}
+        	}
+        },
+        {
+        	"path": "pages/user/withdraw_list",
+        	"style": {
+        		"navigationBarBackgroundColor": "#e41f19",
+        		"navigationBarTextStyle": "white",
+        		"backgroundColorTop": "#F7F7F7",
+        		"backgroundColorBottom": "#F7F7F7",
+        		"navigationBarTitleText": "提现记录",
+        		"onReachBottomDistance": 50,
+        		"app-plus": {
+        			"titleNView": false
+        		}
+        	}
+        },
+        {
+        	"path": "pages/promotion",
+        	"style": {
+        		"navigationBarBackgroundColor": "#e41f19",
+        		"navigationBarTextStyle": "white",
+        		"backgroundColorTop": "#F7F7F7",
+        		"backgroundColorBottom": "#F7F7F7",
+        		"navigationBarTitleText": "今日必推",
+        		"onReachBottomDistance": 50,
+        		"app-plus": {
+        			"titleNView": false
+        		}
+        	}
+        },
+        {
+        	"path": "pages/web",
+        	"style": {
+        		"navigationBarTitleText": "小麦商城",
+                "app-plus": {
+                	"titleNView": {
+                	    "buttons": [{
+                	        "text": "首页",
+                	        "fontSize": "16"
+                	    }]
+                	}
+                }
+        	}
+        },
+        // 登录模块
+        {
+        	"path": "pages/login/login",
+        	"style": {
+        		"navigationBarBackgroundColor": "#e41f19",
+        		"navigationBarTextStyle": "white",
+        		"backgroundColorTop": "#F7F7F7",
+        		"backgroundColorBottom": "#F7F7F7",
+        		"navigationBarTitleText": "登录",
+        		"onReachBottomDistance": 50,
+        		"app-plus": {
+        			"titleNView": false
+        		}
+        	}
+        },        
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小麦商城"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小麦商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#5677FC",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/mall",
+				"text": "首页",
+				"iconPath": "static/images/tabbar/tab-home.png",
+				"selectedIconPath": "static/images/tabbar/tab-home-current.png"
+			},
+            {
+            	"pagePath": "pages/promotion",
+            	"text": "推荐",
+            	"iconPath": "static/images/tabbar/tab-commend.png",
+            	"selectedIconPath": "static/images/tabbar/tab-commend-current.png"
+            },
+			{
+				"pagePath": "pages/theme",
+				"text": "主题",
+				"iconPath": "static/images/tabbar/tab-cate.png",
+				"selectedIconPath": "static/images/tabbar/tab-cate-current.png"
+			},
+			{
+				"pagePath": "pages/user/my",
+				"text": "我的",
+				"iconPath": "static/images/tabbar/tab-my.png",
+				"selectedIconPath": "static/images/tabbar/tab-my-current.png"
+			}
+		]
+	}
+}

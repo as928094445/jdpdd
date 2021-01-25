@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#e41f19",
+  "navigationBarTextStyle": "white",
+  "backgroundColorTop": "#F7F7F7",
+  "backgroundColorBottom": "#F7F7F7",
+  "navigationBarTitleText": "会员升级",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "tui-upload": "/components/tui-upload/tui-upload"
+  }
+}

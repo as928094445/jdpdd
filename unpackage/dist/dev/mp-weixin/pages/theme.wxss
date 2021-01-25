@@ -1,0 +1,13 @@
+
+page {background:#f7f7f7;}
+.tui-mb-20 {margin-bottom:20rpx;}
+.tui-product-box {margin-top:20rpx;margin: 0 20rpx;box-sizing:border-box;}
+.theme-list{margin-top:20rpx;}
+.theme{background:#FFFFFF;}
+.image-view image{width:100%;}
+.theme-title{font-size:28rpx;padding: 0 10rpx;}
+.theme-name{width: 560rpx;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display: inline-block;}
+.theme-goods-num{float: right;color: #9c9c9c;font-size: 24rpx;margin-top: 1px;}
+.theme-goods-img{padding: 0 10rpx;}
+.theme-goods-img image{width:120rpx;height:120rpx;}    
+
